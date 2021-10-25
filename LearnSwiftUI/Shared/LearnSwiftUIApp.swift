@@ -12,6 +12,7 @@ struct LearnSwiftUIApp: App {
     @StateObject private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {
+            //FirestView()
             ContentView().environmentObject(modelData)
         }
     }

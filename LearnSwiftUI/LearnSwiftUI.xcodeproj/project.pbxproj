@@ -35,6 +35,10 @@
 		01DC7D4F27173193003265D1 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC7D4D27173193003265D1 /* LandmarkList.swift */; };
 		01DC7D5127173E75003265D1 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC7D5027173E75003265D1 /* LandmarkDetail.swift */; };
 		01DC7D5227173E75003265D1 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC7D5027173E75003265D1 /* LandmarkDetail.swift */; };
+		01E09A6C27207E740030F50C /* FirestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E09A6B27207E740030F50C /* FirestView.swift */; };
+		01E09A6D27207E740030F50C /* FirestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E09A6B27207E740030F50C /* FirestView.swift */; };
+		01E09A6F27207E880030F50C /* TwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E09A6E27207E880030F50C /* TwoView.swift */; };
+		01E09A7027207E880030F50C /* TwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E09A6E27207E880030F50C /* TwoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,8 @@
 		0197A3F3271C864B0068ACC1 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		01DC7D4D27173193003265D1 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		01DC7D5027173E75003265D1 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		01E09A6B27207E740030F50C /* FirestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestView.swift; sourceTree = "<group>"; };
+		01E09A6E27207E880030F50C /* TwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +119,9 @@
 		015AE44427172A5200DDBEF3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				01E09A6B27207E740030F50C /* FirestView.swift */,
 				01880EA6270AC5BE000BB583 /* ContentView.swift */,
+				01E09A6E27207E880030F50C /* TwoView.swift */,
 				0197A3F7271C88DB0068ACC1 /* Helpers */,
 				0197A3F6271C88C20068ACC1 /* Landmarks */,
 			);
@@ -377,6 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E09A6C27207E740030F50C /* FirestView.swift in Sources */,
+				01E09A6F27207E880030F50C /* TwoView.swift in Sources */,
 				01880ECF270AC5C0000BB583 /* ContentView.swift in Sources */,
 				015AE44B27172D4F00DDBEF3 /* LandMarkRow.swift in Sources */,
 				01880EE5270C17E6000BB583 /* MapView.swift in Sources */,
@@ -394,6 +404,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E09A6D27207E740030F50C /* FirestView.swift in Sources */,
+				01E09A7027207E880030F50C /* TwoView.swift in Sources */,
 				01880ED0270AC5C0000BB583 /* ContentView.swift in Sources */,
 				015AE44C27172D4F00DDBEF3 /* LandMarkRow.swift in Sources */,
 				01880EE6270C17E6000BB583 /* MapView.swift in Sources */,
