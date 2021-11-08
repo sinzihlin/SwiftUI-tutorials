@@ -11,7 +11,8 @@ import SwiftUI
 struct StateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            ObserverView()
         }
     }
 }
