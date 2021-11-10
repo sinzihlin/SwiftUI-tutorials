@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftuiCalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let contebView = ContentView().environmentObject(GlobalEnviroment())
         }
     }
 }
